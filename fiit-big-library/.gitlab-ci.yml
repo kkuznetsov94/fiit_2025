@@ -1,0 +1,28 @@
+image: node:16.20.1
+
+stages:
+  - frontend-build
+
+cache:
+  paths:
+    - Source/Kontur.BigLibrary.Service/ClientApp/node_modules
+
+before_script:
+  - node --version
+  - npm --version
+  - pwd && ls -la
+  - cd Source/Kontur.BigLibrary.Service/ClientApp && npm ci
+
+frontend-build:
+  image: node:16.20.1
+  stage: frontend-build
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
+  allow_failure: true
+  cache:
+    paths:
+      - ./node_modules
+  script:
+    - npm run build && npm run build-storybook
+  rules:
+    - changes:
+        - Source/Kontur.BigLibrary.Service/ClientApp/**/*
