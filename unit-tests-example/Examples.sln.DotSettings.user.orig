@@ -1,0 +1,55 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=226433e0_002D2965_002D4c77_002Da701_002Df0e4cde81627/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;And&gt;&#xD;
+      &lt;Or&gt;&#xD;
+        &lt;ProjectFile&gt;4CD60E8F-AD20-4E34-92B2-3E746239169A/f:Class1.cs&lt;/ProjectFile&gt;&#xD;
+        &lt;ProjectFile&gt;4CD60E8F-AD20-4E34-92B2-3E746239169A/f:Class2.cs&lt;/ProjectFile&gt;&#xD;
+        &lt;TestAncestor&gt;&#xD;
+          &lt;TestId&gt;NUnit3x::2D9C8BCD-CC31-4B6D-B37E-A4D6E0A9A04A::net7.0::UserCreatorTests.UserCreatorTests.ShouldThrowException_WhenPasswordInvalid&lt;/TestId&gt;&#xD;
+        &lt;/TestAncestor&gt;&#xD;
+      &lt;/Or&gt;&#xD;
+      &lt;Not&gt;&#xD;
+        &lt;And&gt;&#xD;
+          &lt;Or&gt;&#xD;
+            &lt;ProjectFile&gt;4CD60E8F-AD20-4E34-92B2-3E746239169A/f:Class1.cs&lt;/ProjectFile&gt;&#xD;
+            &lt;ProjectFile&gt;4CD60E8F-AD20-4E34-92B2-3E746239169A/f:Class2.cs&lt;/ProjectFile&gt;&#xD;
+            &lt;TestAncestor&gt;&#xD;
+              &lt;TestId&gt;NUnit3x::2D9C8BCD-CC31-4B6D-B37E-A4D6E0A9A04A::net7.0::UserCreatorTests.UserCreatorTests.ShouldThrowException_WhenPasswordInvalid&lt;/TestId&gt;&#xD;
+            &lt;/TestAncestor&gt;&#xD;
+          &lt;/Or&gt;&#xD;
+          &lt;Project Location="C:\Users\k.kuznetsov\RiderProjects\Example\e5_ParallelizationExamples" Presentation="&amp;lt;e5_ParallelizationExamples&amp;gt;" /&gt;&#xD;
+        &lt;/And&gt;&#xD;
+      &lt;/Not&gt;&#xD;
+    &lt;/And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::2D9C8BCD-CC31-4B6D-B37E-A4D6E0A9A04A::net7.0::UserCreatorTests.UserValidatorTests.Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::2D9C8BCD-CC31-4B6D-B37E-A4D6E0A9A04A::net7.0::UserCreatorTests.UserValidatorTests.Test2&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::2D9C8BCD-CC31-4B6D-B37E-A4D6E0A9A04A::net7.0::UserCreatorTests.UserCreatorTests.ShouldThrowException_IfPasswordInvalid&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6cd90b27_002D1a70_002D4fc1_002D8e4e_002D21e3aa9e4828/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UserValidator_ReturnTrue_WhenUserValid" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\FIIT\UnitTestsProject\Example\e4_TestFixtures" Presentation="&amp;lt;e4_TestFixtures&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8ecac385_002D546c_002D464c_002Da5e0_002Db287f8f20b62/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AreEqualTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0AC9CD46-C697-4CA2-AEBD-6935B37871BC::net7.0::Example._1._BaseExamples.BaseAssertExamples.Chek_WhenEqual_ReturnTrue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0D06FF90-A25E-47C3-BD1B-5217C5BFE565::net7.0::BaseExamples.TestCaseAttributeExamples.TestCaseAttributeExamples.Add_TwoNumbers_ReturnCorrectSum&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=98af4511_002Db993_002D4352_002Da532_002Dae070eea2b24/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Class2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B70EA19A-96F6-4DEE-BAC6-9D90F1A3956D::net7.0::UserValidatorTests.UserValidatorTests.UserValidator_ReturnTrue_WhenUserValid&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+<<<<<<< Updated upstream
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=98e84c4d_002De417_002D475a_002D8434_002D2a64c3d702c7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Class2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4CD60E8F-AD20-4E34-92B2-3E746239169A::net7.0::ParallelizationExamples.Class2&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+=======
+	
+	</wpf:ResourceDictionary>
+>>>>>>> Stashed changes
